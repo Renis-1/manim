@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/3977891868_3218725613_223132457.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/2852726489_784179552_2150796322.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/2852726489_898238085_2517854368.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/2852726489_4181699881_925657914.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/2852726489_1639606397_3189712399.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/2852726489_964502240_3172590225.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/2852726489_784179552_1092631812.mp4'

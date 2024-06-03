@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/test/3977891868_1857090644_2358810818.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/test/2852726489_2590472816_1284356670.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/test/2852726489_1733944848_1516082476.mp4'

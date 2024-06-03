@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/3977891868_1497439858_223132457.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_2844299508_1181744824.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_943783281_3634786484.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_2529143355.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_3509727262_175892370.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_1581341196.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_3436908876_108706601.mp4'
+file 'file:/home/freko/projects/porjektZespolowy2/LiczbyZespolone/media/videos/1080p60/partial_movie_files/Power/2852726489_4105491939_3096715581.mp4'
