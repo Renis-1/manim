@@ -274,7 +274,7 @@ class Power(Scene):
         z = 1 + 1j
 
         point_z = Dot(plane.n2p(z), color=RED)
-        label_z = Text("z", font_size=15, color=RED).next_to(point_z, UR, buff=0.1)
+        label_z = MathTex("z", font_size=35, color=RED).next_to(point_z, UR, buff=0.1)
         arrow_z = Arrow(plane.n2p(0), plane.n2p(z), color=RED)
         z_arrow_label = Text("|z|", font_size=15, color=RED).next_to(arrow_z).shift(LEFT * 0.5)
         z_arrow_label.shift(DOWN*0.2)
@@ -288,35 +288,86 @@ class Power(Scene):
         z_angle_label = MathTex(r"\theta", font_size=35, color=RED).move_to(
             z_arc.point_from_proportion(0.25) + 0.2 * UP + 0.5 * RIGHT)
 
-        res = z ** 3
-        point_res = Dot(plane.n2p(res), color=GREEN)
-        label_res = MathTex("z^3", font_size=35, color=GREEN).next_to(point_res, UR, buff=0.1)
-        arrow_res = Arrow(plane.n2p(0), plane.n2p(res), color=GREEN)
-        res_arrow_label = MathTex("|z|^3", font_size=35, color=GREEN).next_to(arrow_res).shift(LEFT * 2)
-        res_angle = np.angle(res)
-        res_arc = Arc(
+        point_z_copy = point_z.copy()
+        arrow_z_copy = arrow_z.copy()
+        z_arc_copy = z_arc.copy()
+
+        self.play(GrowArrow(arrow_z), GrowArrow(arrow_z_copy),
+                  FadeIn(point_z, label_z, z_arc, z_angle_label, z_arrow_label, point_z_copy, arrow_z_copy))
+        self.wait(1)
+
+        z_2 = z ** 2
+        point_z_2 = Dot(plane.n2p(z_2), color=GREEN)
+        label_z_2 = MathTex("z^2", font_size=35, color=GREEN).next_to(point_z_2, UR, buff=0.1)
+        arrow_z_2 = Arrow(plane.n2p(0), plane.n2p(z_2), color=GREEN)
+        z_2_arrow_label = MathTex("|z|^2", font_size=30, color=GREEN).next_to(arrow_z_2).shift(UP*0.5 + LEFT*0.2)
+        z_2_angle = np.angle(z_2)
+        z_2_arc = Arc(
             radius=1,
             start_angle=0,
-            angle=res_angle,
+            angle=z_2_angle,
             color=GREEN,
         )
-        res_angle_label = MathTex(r"3*\theta", font_size=35, color=GREEN).move_to(
-            res_arc.point_from_proportion(0.25) + 0.8 * UP + 1.5 * LEFT)
+        z_2_angle_label = MathTex(r"2*\theta", font_size=30, color=GREEN).move_to(
+            z_2_arc.point_from_proportion(0.25) + 0.8 * UP + 0.2 * LEFT)
 
-        self.play(GrowArrow(arrow_z), FadeIn(point_z, label_z, z_arc, z_angle_label, z_arrow_label))
-        self.wait(1)
-        self.play(GrowArrow(arrow_res), FadeIn(point_res, label_res, res_arc, res_angle_label, res_arrow_label))
+        point_z_2_copy = point_z_2.copy()
+        arrow_z_2_copy = arrow_z_2.copy()
+        z_2_arc_copy = z_2_arc.copy()
+
+        self.play(Transform(z_arc_copy, z_2_arc), Transform(point_z_copy, point_z_2),
+                  Transform(arrow_z_copy, arrow_z_2), FadeIn(label_z_2, z_2_angle_label, z_2_arrow_label))
+        self.play(FadeIn(point_z_2_copy, arrow_z_2_copy, z_2_arc_copy))
         self.wait(1)
 
-        z_text = MathTex(r"z = |z|(cos \theta + i sin \theta)", font_size=25, color=RED).to_corner(UP + RIGHT).shift(LEFT*0.5)
-        res_text = MathTex(r"z^3 = |z|^3(cos(\theta*3) + i sin(\theta*3))", font_size=25, color=GREEN).next_to(z_text, DOWN).shift(LEFT*0.5)
-        self.play(FadeIn(z_text, res_text))
+        z_3 = z ** 3
+        point_z_3 = Dot(plane.n2p(z_3), color=YELLOW)
+        label_z_3 = MathTex("z^3", font_size=35, color=YELLOW).next_to(point_z_3, UR, buff=0.1)
+        arrow_z_3 = Arrow(plane.n2p(0), plane.n2p(z_3), color=YELLOW)
+        z_3_arrow_label = MathTex("|z|^3", font_size=35, color=YELLOW).next_to(arrow_z_3).shift(LEFT * 2)
+        z_3_angle = np.angle(z_3)
+        z_3_arc = Arc(
+            radius=1,
+            start_angle=0,
+            angle=z_3_angle,
+            color=YELLOW,
+        )
+        z_3_angle_label = MathTex(r"3*\theta", font_size=35, color=YELLOW).move_to(
+            z_3_arc.point_from_proportion(0.25) + 0.8 * UP + 1.5 * LEFT)
+
+        self.play(Transform(z_2_arc_copy, z_3_arc), Transform(point_z_2_copy, point_z_3),
+                  Transform(arrow_z_2_copy, arrow_z_3), FadeIn(label_z_3, z_3_angle_label, z_3_arrow_label))
+        self.wait(1)
+
+        z_text = MathTex(r"z = |z|(cos \theta + i sin \theta)", font_size=25, color=RED).to_corner(UP + RIGHT).shift(
+            LEFT * 0.5)
+        z_2_text = MathTex(r"z^2 = |z|^2(cos(\theta*2) + i sin(\theta*2))", font_size=25, color=GREEN).next_to(z_text,
+            DOWN).shift(LEFT * 0.5)
+        z_3_text = MathTex(r"z^3 = |z|^3(cos(\theta*3) + i sin(\theta*3))", font_size=25, color=YELLOW).next_to(
+            z_2_text, DOWN)
+        self.play(FadeIn(z_text, z_2_text, z_3_text))
 
         self.wait(4)
+
+
+def fade_out(scene: Scene):
+    animations = []
+    for mobject in scene.mobjects:
+        animations.append(FadeOut(mobject))
+    scene.play(*animations)
+
+
+class CombinedScene(Scene):
+    def construct(self):
+        scenes = [ComplexNumberIntroduction, ImaginaryNumber, ComplexPlain, RealOperations, AdditionOperations, TrigonometricForm, Multiplication, Power]
+        for scene in scenes:
+            scene.construct(self)
+            fade_out(self)
+
 
 if __name__ == "__main__":
     from manim import config
 
     config.background_color = BLACK
-    scene = Power()
+    scene = CombinedScene()
     scene.render()
