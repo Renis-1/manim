@@ -4,9 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1aa667-80df-454b-b184-e8b10f37f2b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="db1aa667-80df-454b-b184-e8b10f37f2b8" name="Changes" comment="added interactive animation and combined prewious animations">
+      <change afterPath="$PROJECT_DIR$/sorts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/AdditionOperations.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/ComplexNumberIntroduction.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/ComplexNumberIntroduction.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/AdditionOperations/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/AdditionOperations/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/569884058_784179552_1328451550.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexPlain/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexPlain/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ImaginaryNumber/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ImaginaryNumber/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Multiplication/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Multiplication/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_1988853545_1367662303.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2001940155_2728161598.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_2497595323.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_2896622586.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_3880134331.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_4199009022.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_470747453.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_789378426.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_793553415.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3045372049_941073708.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3092370344_14267507.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3186526860_3634786484.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3275643362_751754377.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_4105491939_1848562514.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_4183688731_1608240291.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/RealOperations/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/RealOperations/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/TrigonometricForm/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/TrigonometricForm/partial_movie_file_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Renis-1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Renis-1/manim.git&quot;,
+    &quot;accountId&quot;: &quot;20d0155f-701f-4c22-bf30-a390e5dd97c7&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -34,12 +72,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.interactive.executor": "Run",
+    "Python.introductuin.executor": "Run",
+    "Python.sorts.executor": "Run",
     "Python.wstemp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/home/freko/projects/porjektZespolowy/mainm-tutorial-Jakub-Bystrowski"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sorts">
+    <configuration name="interactive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LiczbyZespolone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interactive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="introductuin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LiczbyZespolone" />
       <option name="ENV_FILES" value="" />
@@ -62,8 +125,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sorts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LiczbyZespolone" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sorts" />
+        <item itemvalue="Python.interactive" />
         <item itemvalue="Python.introductuin" />
       </list>
     </recent_temporary>
@@ -84,6 +171,28 @@
       <option name="presentableId" value="Default" />
       <updated>1717421712867</updated>
     </task>
+    <task id="LOCAL-00001" summary="init?">
+      <option name="closed" value="true" />
+      <created>1717437717208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717437717209</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added interactive animation and combined prewious animations">
+      <option name="closed" value="true" />
+      <created>1717707325240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717707325240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init?" />
+    <MESSAGE value="added interactive animation and combined prewious animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interactive animation and combined prewious animations" />
   </component>
 </project>
