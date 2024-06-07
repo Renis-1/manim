@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1aa667-80df-454b-b184-e8b10f37f2b8" name="Changes" comment="added interactive animation and combined prewious animations">
-      <change afterPath="$PROJECT_DIR$/sorts.py" afterDir="false" />
+    <list default="true" id="db1aa667-80df-454b-b184-e8b10f37f2b8" name="Changes" comment="added page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/AdditionOperations.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/ComplexNumberIntroduction.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/ComplexNumberIntroduction.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/AdditionOperations/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/AdditionOperations/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/569884058_784179552_1328451550.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexNumberIntroduction/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexPlain/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ComplexPlain/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ImaginaryNumber/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/ImaginaryNumber/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Multiplication/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Multiplication/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_1988853545_1367662303.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2001940155_2728161598.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_2497595323.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_2896622586.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_3880134331.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_4199009022.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_470747453.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_789378426.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_2919340033_793553415.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3045372049_941073708.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3092370344_14267507.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3186526860_3634786484.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_3275643362_751754377.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_4105491939_1848562514.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/2852726489_4183688731_1608240291.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/Power/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/RealOperations/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/RealOperations/partial_movie_file_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/TrigonometricForm/partial_movie_file_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/media/videos/1080p60/partial_movie_files/TrigonometricForm/partial_movie_file_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python.interactive.executor": "Run",
     "Python.introductuin.executor": "Run",
     "Python.sorts.executor": "Run",
@@ -187,12 +163,30 @@
       <option name="project" value="LOCAL" />
       <updated>1717707325240</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added more animations">
+      <option name="closed" value="true" />
+      <created>1717788881124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717788881124</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added page">
+      <option name="closed" value="true" />
+      <created>1717789899360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717789899360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init?" />
     <MESSAGE value="added interactive animation and combined prewious animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interactive animation and combined prewious animations" />
+    <MESSAGE value="added more animations" />
+    <MESSAGE value="added page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added page" />
   </component>
 </project>
